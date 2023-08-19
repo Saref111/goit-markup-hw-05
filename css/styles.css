@@ -636,8 +636,8 @@ img {
 }
 
 .checkbox-label {
-    display: block;
-    position: relative;
+    display: flex;
+    align-items: center;
 
     color: var(--gray-color);
     font-family: var(--font-family);
@@ -646,6 +646,7 @@ img {
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    
 }
 
 .checkbox-span {
@@ -660,6 +661,7 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .checkbox:checked + .checkbox-label .checkbox-span {
@@ -682,6 +684,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-decoration-line: underline;
+    padding-left: 3px;
 }
 
 .close-modal {
