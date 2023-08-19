@@ -29,7 +29,8 @@ body {
     padding: 0;
 }
 
-button {
+button,
+label {
     cursor: pointer;
 }
 
@@ -664,7 +665,12 @@ img {
 .checkbox:checked + .checkbox-label .checkbox-span {
     background-color: var(--secondary-brand-color);
     border: none;
-    fill: #F4F4FD;
+    fill:  var(--secondary-white-color);
+}
+
+.checkbox-icon {
+    width: 16px;
+    height: 16px;
 }
 
 .privacy-link {
