@@ -636,8 +636,7 @@ img {
 }
 
 .checkbox-label {
-    display: flex;
-    align-items: center;
+    display: block;
 
     color: var(--gray-color);
     font-family: var(--font-family);
@@ -650,6 +649,9 @@ img {
 }
 
 .checkbox-span {
+    display: inline-flex;
+    position: relative;
+    top: 4px;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
