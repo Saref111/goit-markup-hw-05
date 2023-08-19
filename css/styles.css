@@ -574,6 +574,10 @@ img {
     margin-bottom: 8px;
 }
 
+.modal-form-content:nth-child(4) {
+    margin-bottom: 16px;
+}
+
 .modal-form-label {
     color: var(--gray-color);
     font-family: var(--font-family);
