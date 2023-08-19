@@ -661,6 +661,23 @@ img {
     fill: transparent;
 }
 
+.checkbox:checked + .checkbox-label .checkbox-span {
+    background-color: var(--secondary-brand-color);
+    border: none;
+    fill: #F4F4FD;
+}
+
+.privacy-link {
+    color: var(--primary-brand-color);
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+}
+
 .close-modal {
     position: absolute;
     top: 24px;
