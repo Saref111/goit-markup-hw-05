@@ -596,9 +596,12 @@ img {
     overflow: hidden;
 }
 
+.footer-form-container{
+    margin-left: 80px;
+}
+
 .subscribe-form {
     display: flex;
-    margin-left: 80px;
     gap: 24px;
 }
 
